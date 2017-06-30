@@ -6,7 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<build>
-		<sourceDirectory>src</sourceDirectory>
+		<sourceDirectory>/</sourceDirectory>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -20,7 +20,7 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>2.4</version>
 				<configuration>
-					<warSourceDirectory>WebContent</warSourceDirectory>
+					<warSourceDirectory>/WebContent</warSourceDirectory>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
@@ -29,9 +29,8 @@
         			<artifactId>maven-surefire-plugin</artifactId>
         			<version>2.20</version>
         			<configuration>
-<testSourceDirectory>src/test
- 
-   </testSourceDirectory>       				<parallel>methods</parallel>
+<testSourceDirectory>/test</testSourceDirectory>  
+     				<parallel>methods</parallel>
           				<threadCount>10</threadCount>
         			</configuration>
       			</plugin>
