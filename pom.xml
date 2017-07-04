@@ -11,6 +11,10 @@
   <url>http://maven.apache.org</url>
   
   <build>
+<properties>
+    <jdk.version>1.8</jdk.version>
+</properties> 
+
 <pluginManagement>
           <plugins>
             <plugin>
