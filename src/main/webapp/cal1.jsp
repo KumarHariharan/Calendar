@@ -23,8 +23,8 @@
 
 <BODY BGCOLOR="white">
 
-<%@ page language="java" import="cal.*, util.*" %>
-<jsp:useBean id="table" scope="session" class="cal.TableBean" />
+<%@ page language="java" import="com.acn.app.*" %>
+<jsp:useBean id="table" scope="session" class="com.acn.app.TableBean" />
 
 <%
     table.processRequest(request);
@@ -50,12 +50,12 @@
 <FORM METHOD=POST ACTION=cal1.jsp>
 <%
     for(int i=0; i<table.getEntries().getRows(); i++) {
-       cal.Entry entr = table.getEntries().getEntry(i);
+    	com.acn.app.Entry entr = table.getEntries().getEntry(i);
 %>
     <TR>
     <TD>
     <A HREF=cal2.jsp?time=<%= entr.getHour() %>>
-        <%= entr.getHour() %> </A>
+        <%= entr.getHour() %> </A> 
     </TD>
     <TD BGCOLOR=<%= entr.getColor() %>>
     <% out.print(HTMLFilter.filter(entr.getDescription())); %>

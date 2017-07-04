@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package cal;
+package com.acn.app;
 
 public class Entry {
 

@@ -14,7 +14,7 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 --%>
-<%@page import="util.HTMLFilter"%>
+<%@page import="com.acn.app.HTMLFilter"%>
 <%@page contentType="text/html; charset=UTF-8" %>
 <HTML>
 <HEAD><TITLE>
@@ -23,7 +23,7 @@
 
  
 <BODY BGCOLOR="white">
-<jsp:useBean id="table" scope="session" class="cal.TableBean" />
+<jsp:useBean id="table" scope="session" class="com.acn.app.TableBean" />
 
 <%
     String time = request.getParameter ("time");

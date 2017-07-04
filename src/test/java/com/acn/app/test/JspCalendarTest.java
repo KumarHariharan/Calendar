@@ -1,7 +1,7 @@
 /**
  * 
  */
-package test;
+package com.acn.app.test;
 
 import static org.junit.Assert.*;
 
@@ -13,7 +13,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import cal.JspCalendar;
+import com.acn.app.JspCalendar;
 
 /**
  * @author s.sannidhanam
