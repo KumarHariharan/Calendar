@@ -29,6 +29,12 @@
 	  </plugins>
   </build>
   <dependencies>
+<dependency>
+    <artifactId>XYZ</artifactId>
+    <groupId>xyz</groupId>
+    <scope>system</scope>
+    <systemPath>C:\Tomcat\apache-tomcat-8.5.15\lib\servlet-api.jar</systemPath>
+</dependency> 
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
