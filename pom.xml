@@ -30,10 +30,10 @@
   </build>
   <dependencies>
 <dependency>
-<groupId>javax.servlet.http</groupId>
     <artifactId>servlet-api</artifactId>
-        <scope>system</scope>
-    <systemPath>C:/Tomcat/apache-tomcat-8.5.15/lib/</systemPath>
+    <groupId>javax.servlet.http</groupId>
+    <scope>system</scope>
+    <systemPath>C:/Tomcat/apache-tomcat-8.5.15/lib/*.jar</systemPath>
 </dependency> 
     <dependency>
       <groupId>junit</groupId>
