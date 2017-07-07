@@ -29,8 +29,7 @@
 							<directory>src/main/webapp</directory>
 							<includes>
 								<include>*.html</include>
-							</includes>
-						</resource>
+							</includes><targetPath>.</targetPath></resource>
 					</webResources>
 				</configuration>
 			</plugin>
