@@ -38,7 +38,6 @@
 <TD ALIGN=CENTER> <A HREF=cal1.jsp?date=prev> prev </A>
 <TD ALIGN=CENTER> Calendar:<%= table.getDate() %></TD>
 <TD ALIGN=CENTER> <A HREF=cal1.jsp?date=next> next </A>
-<TD ALIGN=CENTER><a href="mailto:kumar.hariharan@accenture.com" target="_top">Send Mail</a>
 </TR>
 </TABLE>
 
