@@ -22,14 +22,12 @@
 </TITLE></HEAD>
 
  
-<BODY BGCOLOR="cranberry">
+<BODY BGCOLOR="white">
 <jsp:useBean id="table" scope="session" class="com.acn.app.TableBean" />
 
 <%
     String time = request.getParameter ("time");
 %>
-<BR>
-<img src="http://tse2.mm.bing.net/th?id=OIP.AeOPWDzYLGo1fEomaTDTrAEsCm&w=299&h=166&c=7&qlt=90&o=4&dpr=1.5&pid=1.7" alt="Smiley face"align="right">
 <FONT SIZE=5> Please add the following event:
 <BR> <h3> Date <%= table.getDate() %>
 <BR> Time <%= HTMLFilter.filter(time) %> </h3>
