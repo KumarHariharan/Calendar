@@ -21,8 +21,9 @@
     Calendar: A JSP APPLICATION
 </TITLE></HEAD>
 
- 
-<BODY BGCOLOR="white">
+ <BR>
+<img src="http://tse2.mm.bing.net/th?id=OIP.AeOPWDzYLGo1fEomaTDTrAEsCm&w=299&h=166&c=7&qlt=90&o=4&dpr=1.5&pid=1.7" alt="Smiley face"align="right" height=75,width=75>
+<BODY BGCOLOR="saffron yellow">
 <jsp:useBean id="table" scope="session" class="com.acn.app.TableBean" />
 
 <%
@@ -35,6 +36,7 @@
 <FORM METHOD=POST ACTION=cal1.jsp>
 <BR>
 <BR> <INPUT NAME="date" TYPE=HIDDEN VALUE="current">
+
 <BR> <INPUT NAME="time" TYPE=HIDDEN VALUE="<%= HTMLFilter.filter(time) %>">
 <BR> <h2> Description of the event <INPUT NAME="description" TYPE=TEXT SIZE=20> </h2>
 <BR> <INPUT TYPE=SUBMIT VALUE="submit">
