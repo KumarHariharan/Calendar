@@ -21,7 +21,7 @@
 </TITLE></HEAD>
 
 
-<BODY BGCOLOR="saffronyellow">
+<BODY BGCOLOR="white">
 
 <%@ page language="java" import="com.acn.app.*" %>
 <jsp:useBean id="table" scope="session" class="com.acn.app.TableBean" />
@@ -69,7 +69,7 @@
 <BR>
 
 <!-- footer --> 
-<TABLE WIDTH=60% BGCOLOR=yellow CELLPADDING=15>
+<TABLE WIDTH=60% BGCOLOR=white CELLPADDING=15>
 <TR>
 <TD ALIGN=CENTER>  <% out.print(HTMLFilter.filter(table.getName())); %> :
              <% out.print(HTMLFilter.filter(table.getEmail())); %> </TD>
