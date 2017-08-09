@@ -20,7 +20,6 @@
     Calendar: A JSP APPLICATION
 </TITLE></HEAD>
 
-
 <BODY BGCOLOR="white">
 
 <%@ page language="java" import="com.acn.app.*" %>
@@ -33,7 +32,7 @@
 
 <!-- html table goes here -->
 <CENTER>
-<TABLE WIDTH=70% BGCOLOR=yellow CELLPADDING=15>
+<TABLE WIDTH=70% BGCOLOR=white CELLPADDING=15>
 <TR>
 <TD ALIGN=CENTER> <A HREF=cal1.jsp?date=prev> prev </A>
 <TD ALIGN=CENTER> Calendar:<%= table.getDate() %></TD>
