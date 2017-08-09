@@ -33,18 +33,16 @@
 
 <!-- html table goes here -->
 <CENTER>
-<TABLE WIDTH=60% BGCOLOR=lightblue CELLPADDING=15>
+<TABLE WIDTH=60% BGCOLOR=yellow CELLPADDING=15>
 <TR>
 <TD ALIGN=CENTER> <A HREF=cal1.jsp?date=prev> prev </A>
 <TD ALIGN=CENTER> Calendar:<%= table.getDate() %></TD>
 <TD ALIGN=CENTER> <A HREF=cal1.jsp?date=next> next </A>
-<TD ALIGN=CENTER><a href="mailto:kumar.hariharan@accenture.com" target="_top">Contact us</a>
-
 </TR>
 </TABLE>
 
 <!-- the main table -->
-<TABLE WIDTH=60% BGCOLOR=lightgreen BORDER=1 CELLPADDING=10>
+<TABLE WIDTH=60% BGCOLOR=lightblue BORDER=1 CELLPADDING=10>
 <TR>
 <TH> Time </TH>
 <TH> Appointment </TH>
@@ -71,7 +69,7 @@
 <BR>
 
 <!-- footer --> 
-<TABLE WIDTH=60% BGCOLOR=white CELLPADDING=15>
+<TABLE WIDTH=60% BGCOLOR=yellow CELLPADDING=15>
 <TR>
 <TD ALIGN=CENTER>  <% out.print(HTMLFilter.filter(table.getName())); %> :
              <% out.print(HTMLFilter.filter(table.getEmail())); %> </TD>
