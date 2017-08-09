@@ -33,7 +33,7 @@
 
 <!-- html table goes here -->
 <CENTER>
-<TABLE WIDTH=60% BGCOLOR=yellow CELLPADDING=15>
+<TABLE WIDTH=70% BGCOLOR=yellow CELLPADDING=15>
 <TR>
 <TD ALIGN=CENTER> <A HREF=cal1.jsp?date=prev> prev </A>
 <TD ALIGN=CENTER> Calendar:<%= table.getDate() %></TD>
