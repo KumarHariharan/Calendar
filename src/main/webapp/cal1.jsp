@@ -42,7 +42,7 @@
 </TABLE>
 
 <!-- the main table -->
-<TABLE WIDTH=60% BGCOLOR=lightblue BORDER=1 CELLPADDING=10>
+<TABLE WIDTH=70% BGCOLOR=lightblue BORDER=1 CELLPADDING=10>
 <TR>
 <TH> Time </TH>
 <TH> Appointment </TH>
